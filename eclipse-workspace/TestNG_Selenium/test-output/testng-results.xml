@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="14" failed="1" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-23T01:04:24 IST" name="Default suite" finished-at="2026-05-23T01:05:13 IST" duration-ms="49545">
+    <groups>
+      <group name="regression">
+        <method signature="OpenCartTest.registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Assignment.OpenCartTest@75d4a5c2]" name="registrationTest" class="Assignment.OpenCartTest"/>
+        <method signature="OpenCartTest.loginTest()[pri:2, instance:Assignment.OpenCartTest@75d4a5c2]" name="loginTest" class="Assignment.OpenCartTest"/>
+        <method signature="OpenCartTest.searchProductTest(java.lang.String)[pri:3, instance:Assignment.OpenCartTest@75d4a5c2]" name="searchProductTest" class="Assignment.OpenCartTest"/>
+        <method signature="OpenCartTest.addToCartTest()[pri:4, instance:Assignment.OpenCartTest@75d4a5c2]" name="addToCartTest" class="Assignment.OpenCartTest"/>
+        <method signature="OpenCartTest.removeProductTest()[pri:5, instance:Assignment.OpenCartTest@75d4a5c2]" name="removeProductTest" class="Assignment.OpenCartTest"/>
+        <method signature="OpenCartTest.checkoutTest()[pri:6, instance:Assignment.OpenCartTest@75d4a5c2]" name="checkoutTest" class="Assignment.OpenCartTest"/>
+        <method signature="OpenCartTest.orderConfirmationTest()[pri:7, instance:Assignment.OpenCartTest@75d4a5c2]" name="orderConfirmationTest" class="Assignment.OpenCartTest"/>
+        <method signature="OpenCartTest.logoutTest()[pri:8, instance:Assignment.OpenCartTest@75d4a5c2]" name="logoutTest" class="Assignment.OpenCartTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="OpenCartTest.registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Assignment.OpenCartTest@75d4a5c2]" name="registrationTest" class="Assignment.OpenCartTest"/>
+        <method signature="OpenCartTest.loginTest()[pri:2, instance:Assignment.OpenCartTest@75d4a5c2]" name="loginTest" class="Assignment.OpenCartTest"/>
+        <method signature="OpenCartTest.searchProductTest(java.lang.String)[pri:3, instance:Assignment.OpenCartTest@75d4a5c2]" name="searchProductTest" class="Assignment.OpenCartTest"/>
+        <method signature="OpenCartTest.addToCartTest()[pri:4, instance:Assignment.OpenCartTest@75d4a5c2]" name="addToCartTest" class="Assignment.OpenCartTest"/>
+        <method signature="OpenCartTest.logoutTest()[pri:8, instance:Assignment.OpenCartTest@75d4a5c2]" name="logoutTest" class="Assignment.OpenCartTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-05-23T01:04:24 IST" name="Default test" finished-at="2026-05-23T01:05:13 IST" duration-ms="49545">
+      <class name="Assignment.OpenCartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:04:24 IST" name="setup" finished-at="2026-05-23T01:04:26 IST" duration-ms="2121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:04:26 IST" name="registrationTest" data-provider="registrationData" finished-at="2026-05-23T01:04:38 IST" duration-ms="12218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pankaj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vishwakarma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pankajtest1779478464396@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method signature="loginTest()[pri:2, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:04:38 IST" name="loginTest" finished-at="2026-05-23T01:04:45 IST" depends-on-methods="Assignment.OpenCartTest.registrationTest" duration-ms="6547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="searchProductTest(java.lang.String)[pri:3, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:04:45 IST" name="searchProductTest" data-provider="searchData" finished-at="2026-05-23T01:04:46 IST" depends-on-methods="Assignment.OpenCartTest.loginTest" duration-ms="549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone 15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method signature="searchProductTest(java.lang.String)[pri:3, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:04:46 IST" name="searchProductTest" data-provider="searchData" finished-at="2026-05-23T01:04:46 IST" depends-on-methods="Assignment.OpenCartTest.loginTest" duration-ms="526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung Galaxy S25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method signature="searchProductTest(java.lang.String)[pri:3, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:04:46 IST" name="searchProductTest" data-provider="searchData" finished-at="2026-05-23T01:04:47 IST" depends-on-methods="Assignment.OpenCartTest.loginTest" duration-ms="561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook Air M4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method signature="searchProductTest(java.lang.String)[pri:3, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:04:47 IST" name="searchProductTest" data-provider="searchData" finished-at="2026-05-23T01:04:47 IST" depends-on-methods="Assignment.OpenCartTest.loginTest" duration-ms="546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dell Laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method signature="searchProductTest(java.lang.String)[pri:3, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:04:47 IST" name="searchProductTest" data-provider="searchData" finished-at="2026-05-23T01:04:48 IST" depends-on-methods="Assignment.OpenCartTest.loginTest" duration-ms="520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sony Headphones]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method signature="searchProductTest(java.lang.String)[pri:3, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:04:48 IST" name="searchProductTest" data-provider="searchData" finished-at="2026-05-23T01:04:48 IST" depends-on-methods="Assignment.OpenCartTest.loginTest" duration-ms="571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple Watch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method signature="searchProductTest(java.lang.String)[pri:3, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:04:48 IST" name="searchProductTest" data-provider="searchData" finished-at="2026-05-23T01:04:49 IST" depends-on-methods="Assignment.OpenCartTest.loginTest" duration-ms="588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nike Shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method signature="searchProductTest(java.lang.String)[pri:3, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:04:49 IST" name="searchProductTest" data-provider="searchData" finished-at="2026-05-23T01:04:50 IST" depends-on-methods="Assignment.OpenCartTest.loginTest" duration-ms="524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gaming Mouse]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method signature="searchProductTest(java.lang.String)[pri:3, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:04:50 IST" name="searchProductTest" data-provider="searchData" finished-at="2026-05-23T01:04:50 IST" depends-on-methods="Assignment.OpenCartTest.loginTest" duration-ms="563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bluetooth Speaker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method signature="searchProductTest(java.lang.String)[pri:3, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:04:50 IST" name="searchProductTest" data-provider="searchData" finished-at="2026-05-23T01:04:51 IST" depends-on-methods="Assignment.OpenCartTest.loginTest" duration-ms="552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Canon Camera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method signature="addToCartTest()[pri:4, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:04:51 IST" name="addToCartTest" finished-at="2026-05-23T01:04:55 IST" depends-on-methods="Assignment.OpenCartTest.searchProductTest" duration-ms="3912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method signature="removeProductTest()[pri:5, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:04:55 IST" name="removeProductTest" finished-at="2026-05-23T01:05:03 IST" depends-on-methods="Assignment.OpenCartTest.addToCartTest" duration-ms="8939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductTest -->
+        <test-method signature="checkoutTest()[pri:6, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:05:03 IST" name="checkoutTest" finished-at="2026-05-23T01:05:13 IST" depends-on-methods="Assignment.OpenCartTest.addToCartTest" duration-ms="9822" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Checkout page not opened expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Checkout page not opened expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at Assignment.OpenCartTest.checkoutTest(OpenCartTest.java:129)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutTest -->
+        <test-method signature="orderConfirmationTest()[pri:7, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:05:13 IST" name="orderConfirmationTest" finished-at="2026-05-23T01:05:13 IST" depends-on-methods="Assignment.OpenCartTest.checkoutTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Assignment.OpenCartTest.orderConfirmationTest() on instance Assignment.OpenCartTest@75d4a5c2 depends on not successfully finished methods 
+[Assignment.OpenCartTest.checkoutTest() on instance Assignment.OpenCartTest@75d4a5c2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Assignment.OpenCartTest.orderConfirmationTest() on instance Assignment.OpenCartTest@75d4a5c2 depends on not successfully finished methods 
+[Assignment.OpenCartTest.checkoutTest() on instance Assignment.OpenCartTest@75d4a5c2]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderConfirmationTest -->
+        <test-method signature="logoutTest()[pri:8, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:05:13 IST" name="logoutTest" finished-at="2026-05-23T01:05:13 IST" depends-on-methods="Assignment.OpenCartTest.orderConfirmationTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Assignment.OpenCartTest.logoutTest() on instance Assignment.OpenCartTest@75d4a5c2 depends on not successfully finished methods 
+[Assignment.OpenCartTest.orderConfirmationTest() on instance Assignment.OpenCartTest@75d4a5c2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Assignment.OpenCartTest.logoutTest() on instance Assignment.OpenCartTest@75d4a5c2 depends on not successfully finished methods 
+[Assignment.OpenCartTest.orderConfirmationTest() on instance Assignment.OpenCartTest@75d4a5c2]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Assignment.OpenCartTest@75d4a5c2]" started-at="2026-05-23T01:05:13 IST" name="tearDown" finished-at="2026-05-23T01:05:13 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Assignment.OpenCartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
