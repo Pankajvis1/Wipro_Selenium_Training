@@ -32,7 +32,7 @@ public class FlipKartAutomation {
 		driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[1]/div/div/div/div/div/div/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div/header/div[2]/div[2]/div/div/div[1]/div/a/span")).click();
 		Thread.sleep(1500);
 		
-		driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[3]/div/div[2]/div/form/div[1]/input")).sendKeys("7300293160");
+		driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[3]/div/div[2]/div/form/div[1]/input")).sendKeys("7275656529");
 		Thread.sleep(2000);
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));

@@ -29,7 +29,7 @@ public class Tree_Set {
 
         System.out.println(set);
 
-        System.out.println();
+      
 
         Iterator<String> itr = set.iterator();
 

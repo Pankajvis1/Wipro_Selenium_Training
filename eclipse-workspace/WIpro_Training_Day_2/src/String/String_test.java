@@ -10,7 +10,7 @@ public class String_test {
 	
 	System.out.println(str);
 	System.out.println(str.charAt(1));
-	System.out.println(str.indexOf('L'));
+	System.out.println(str.indexOf('l'));
 	System.out.println(str.codePointAt(2));
 	System.out.println(str.codePointBefore(1));
 	System.out.println(str1.compareTo(str));

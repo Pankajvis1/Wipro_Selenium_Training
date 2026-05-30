@@ -1,5 +1,7 @@
 package Encapsulation_practice;
 
+
+
 class BankAccount {
     private double balance; // private variable
 
