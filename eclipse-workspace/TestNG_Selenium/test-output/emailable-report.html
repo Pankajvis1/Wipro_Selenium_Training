@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">14</td><td class="num attn">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">49,545</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Assignment.OpenCartTest</td><td><a href="#m0">checkoutTest</a></td><td rowspan="1">1779478503981</td><td rowspan="1">9822</td></tr><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">Assignment.OpenCartTest</td><td><a href="#m1">logoutTest</a></td><td rowspan="1">1779478513811</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">orderConfirmationTest</a></td><td rowspan="1">1779478513808</td><td rowspan="1">0</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="14">Assignment.OpenCartTest</td><td><a href="#m3">addToCartTest</a></td><td rowspan="1">1779478491125</td><td rowspan="1">3912</td></tr><tr class="passedeven"><td><a href="#m4">loginTest</a></td><td rowspan="1">1779478478748</td><td rowspan="1">6547</td></tr><tr class="passedeven"><td><a href="#m5">registrationTest</a></td><td rowspan="1">1779478466522</td><td rowspan="1">12218</td></tr><tr class="passedeven"><td><a href="#m6">removeProductTest</a></td><td rowspan="1">1779478495039</td><td rowspan="1">8939</td></tr><tr class="passedeven"><td><a href="#m7">searchProductTest</a></td><td rowspan="10">1779478487797</td><td rowspan="10">520</td></tr><tr class="passedeven"><td><a href="#m8">searchProductTest</a></td></tr><tr class="passedeven"><td><a href="#m9">searchProductTest</a></td></tr><tr class="passedeven"><td><a href="#m10">searchProductTest</a></td></tr><tr class="passedeven"><td><a href="#m11">searchProductTest</a></td></tr><tr class="passedeven"><td><a href="#m12">searchProductTest</a></td></tr><tr class="passedeven"><td><a href="#m13">searchProductTest</a></td></tr><tr class="passedeven"><td><a href="#m14">searchProductTest</a></td></tr><tr class="passedeven"><td><a href="#m15">searchProductTest</a></td></tr><tr class="passedeven"><td><a href="#m16">searchProductTest</a></td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">Assignment.OpenCartTest#checkoutTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Checkout page not opened expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at Assignment.OpenCartTest.checkoutTest(OpenCartTest.java:129)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Assignment.OpenCartTest#logoutTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method Assignment.OpenCartTest.logoutTest() on instance Assignment.OpenCartTest@75d4a5c2 depends on not successfully finished methods 
+[Assignment.OpenCartTest.orderConfirmationTest() on instance Assignment.OpenCartTest@75d4a5c2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Assignment.OpenCartTest#orderConfirmationTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method Assignment.OpenCartTest.orderConfirmationTest() on instance Assignment.OpenCartTest@75d4a5c2 depends on not successfully finished methods 
+[Assignment.OpenCartTest.checkoutTest() on instance Assignment.OpenCartTest@75d4a5c2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Assignment.OpenCartTest#addToCartTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Assignment.OpenCartTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Assignment.OpenCartTest#registrationTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Pankaj</td><td>Vishwakarma</td><td>pankajtest1779478464396@gmail.com</td><td>9876543210</td><td>Test@12345</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Assignment.OpenCartTest#removeProductTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Assignment.OpenCartTest#searchProductTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Sony Headphones</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Assignment.OpenCartTest#searchProductTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>MacBook Air M4</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Assignment.OpenCartTest#searchProductTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Nike Shoes</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Assignment.OpenCartTest#searchProductTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Canon Camera</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">Assignment.OpenCartTest#searchProductTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Apple Watch</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">Assignment.OpenCartTest#searchProductTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Dell Laptop</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">Assignment.OpenCartTest#searchProductTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Gaming Mouse</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">Assignment.OpenCartTest#searchProductTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Bluetooth Speaker</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">Assignment.OpenCartTest#searchProductTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Samsung Galaxy S25</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">Assignment.OpenCartTest#searchProductTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>iPhone 15</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
