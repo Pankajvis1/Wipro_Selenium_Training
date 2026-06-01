@@ -16,7 +16,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                dir('Cucumber_BDD') {
+                dir('eclipse-workspace/Cucumber_BDD') {
                     sh 'mvn clean'
                 }
             }
@@ -24,7 +24,7 @@ pipeline {
 
         stage('Compile') {
             steps {
-                dir('Cucumber_BDD') {
+                dir('eclipse-workspace/Cucumber_BDD') {
                     sh 'mvn compile'
                 }
             }
@@ -32,7 +32,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                dir('Cucumber_BDD') {
+                dir('eclipse-workspace/Cucumber_BDD') {
                     sh 'mvn test'
                 }
             }
@@ -40,7 +40,7 @@ pipeline {
 
         stage('Package') {
             steps {
-                dir('Cucumber_BDD') {
+                dir('eclipse-workspace/Cucumber_BDD') {
                     sh 'mvn package'
                 }
             }
