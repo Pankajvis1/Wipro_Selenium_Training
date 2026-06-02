@@ -1,12 +1,49 @@
 pipeline {
     agent any
 
+    tools {
+        maven 'Maven3'
+        jdk 'Jdk 21'
+    }
+
     stages {
 
         stage('Checkout') {
             steps {
                 git branch: 'master',
                     url: 'https://github.com/Pankajvis1/Wipro_Selenium_Training.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                dir('eclipse-workspace/Cucumber_BDD') {
+                    sh 'mvn clean'
+                }
+            }
+        }
+
+        stage('Compile') {
+            steps {
+                dir('eclipse-workspace/Cucumber_BDD') {
+                    sh 'mvn compile'
+                }
+            }
+        }
+
+        stage('Test') {
+            steps {
+                dir('eclipse-workspace/Cucumber_BDD') {
+                    sh 'mvn test'
+                }
+            }
+        }
+
+        stage('Package') {
+            steps {
+                dir('eclipse-workspace/Cucumber_BDD') {
+                    sh 'mvn package'
+                }
             }
         }
 
