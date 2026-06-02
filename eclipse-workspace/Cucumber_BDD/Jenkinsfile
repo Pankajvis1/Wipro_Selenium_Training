@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    environment {
+        DOCKER = '/usr/local/bin/docker'
+    }
+
     stages {
 
         stage('Checkout') {
@@ -10,21 +14,28 @@ pipeline {
             }
         }
 
+        stage('Check Docker') {
+            steps {
+                sh '${DOCKER} --version'
+                sh '${DOCKER} ps'
+            }
+        }
+
         stage('Docker Build') {
             steps {
                 dir('eclipse-workspace/Cucumber_BDD') {
-                    sh 'docker build -t cucumber-framework .'
+                    sh '${DOCKER} build -t cucumber-framework .'
                 }
             }
         }
 
         stage('Start Selenium Chrome') {
             steps {
-                sh 'docker network create selenium-net || true'
-                sh 'docker rm -f selenium-chrome || true'
+                sh '${DOCKER} network create selenium-net || true'
+                sh '${DOCKER} rm -f selenium-chrome || true'
 
                 sh '''
-                docker run -d \
+                ${DOCKER} run -d \
                 --name selenium-chrome \
                 --network selenium-net \
                 -p 4444:4444 \
@@ -39,7 +50,7 @@ pipeline {
         stage('Run Tests') {
             steps {
                 sh '''
-                docker run --rm \
+                ${DOCKER} run --rm \
                 --network selenium-net \
                 cucumber-framework \
                 mvn test \
@@ -51,7 +62,6 @@ pipeline {
     }
 
     post {
-
         success {
             echo 'Build Successful'
         }
@@ -61,7 +71,7 @@ pipeline {
         }
 
         always {
-            sh 'docker rm -f selenium-chrome || true'
+            sh '${DOCKER} rm -f selenium-chrome || true'
         }
     }
 }
