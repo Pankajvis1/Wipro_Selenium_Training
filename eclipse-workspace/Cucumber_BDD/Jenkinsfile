@@ -1,12 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        maven 'Maven3'
-        
-        jdk 'Jdk 21'
-    }
-
     stages {
 
         stage('Checkout') {
@@ -16,35 +10,17 @@ pipeline {
             }
         }
 
-        stage('Build') {
+        stage('Docker Build') {
             steps {
                 dir('eclipse-workspace/Cucumber_BDD') {
-                    sh 'mvn clean'
+                    sh 'docker build -t cucumber-framework .'
                 }
             }
         }
 
-        stage('Compile') {
+        stage('Docker Run') {
             steps {
-                dir('eclipse-workspace/Cucumber_BDD') {
-                    sh 'mvn compile'
-                }
-            }
-        }
-
-        stage('Test') {
-            steps {
-                dir('eclipse-workspace/Cucumber_BDD') {
-                    sh 'mvn test'
-                }
-            }
-        }
-
-        stage('Package') {
-            steps {
-                dir('eclipse-workspace/Cucumber_BDD') {
-                    sh 'mvn package'
-                }
+                sh 'docker run --rm cucumber-framework'
             }
         }
     }
