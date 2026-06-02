@@ -6,4 +6,4 @@ COPY . .
 
 RUN mvn clean install -DskipTests
 
-CMD ["mvn","-Dtest=Runner.RunCucumberTest","test"]
+CMD ["mvn", "test"]

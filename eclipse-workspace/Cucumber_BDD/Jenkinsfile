@@ -1,49 +1,12 @@
 pipeline {
     agent any
 
-    tools {
-        maven 'Maven3'
-        jdk 'Jdk 21'
-    }
-
     stages {
 
         stage('Checkout') {
             steps {
                 git branch: 'master',
                     url: 'https://github.com/Pankajvis1/Wipro_Selenium_Training.git'
-            }
-        }
-
-        stage('Build') {
-            steps {
-                dir('eclipse-workspace/Cucumber_BDD') {
-                    sh 'mvn clean'
-                }
-            }
-        }
-
-        stage('Compile') {
-            steps {
-                dir('eclipse-workspace/Cucumber_BDD') {
-                    sh 'mvn compile'
-                }
-            }
-        }
-
-        stage('Test') {
-            steps {
-                dir('eclipse-workspace/Cucumber_BDD') {
-                    sh 'mvn test'
-                }
-            }
-        }
-
-        stage('Package') {
-            steps {
-                dir('eclipse-workspace/Cucumber_BDD') {
-                    sh 'mvn package'
-                }
             }
         }
 
@@ -55,20 +18,50 @@ pipeline {
             }
         }
 
-        stage('Docker Run') {
+        stage('Start Selenium Chrome') {
             steps {
-                sh 'docker run --rm cucumber-framework'
+                sh 'docker network create selenium-net || true'
+                sh 'docker rm -f selenium-chrome || true'
+
+                sh '''
+                docker run -d \
+                --name selenium-chrome \
+                --network selenium-net \
+                -p 4444:4444 \
+                --platform linux/amd64 \
+                selenium/standalone-chrome:latest
+                '''
+
+                sh 'sleep 30'
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                sh '''
+                docker run --rm \
+                --network selenium-net \
+                cucumber-framework \
+                mvn test \
+                -Dtest=Runner.RunCucumberTest \
+                -Dselenium.remote.url=http://selenium-chrome:4444/wd/hub
+                '''
             }
         }
     }
 
     post {
+
         success {
             echo 'Build Successful'
         }
 
         failure {
             echo 'Build Failed'
+        }
+
+        always {
+            sh 'docker rm -f selenium-chrome || true'
         }
     }
 }

@@ -17,10 +17,12 @@ public class Hooks {
     public void setup(Scenario scenario) {
         DriverFactory.initDriver();
 
-        DriverFactory.getDriver().get("https://phptravels.net/");
-
-        WaitUtils wait = new WaitUtils(DriverFactory.getDriver());
-        wait.handleDemoPopup();
+        try {
+            WaitUtils wait = new WaitUtils(DriverFactory.getDriver());
+            wait.handleDemoPopup();
+        } catch (Exception e) {
+            System.out.println("Popup handling skipped: " + e.getMessage());
+        }
 
         System.out.println("Browser Started: " + scenario.getName());
     }
@@ -31,7 +33,7 @@ public class Hooks {
             if (DriverFactory.getDriver() != null) {
                 String screenshotPath = ScreenshotUtils.captureScreenshot(
                         DriverFactory.getDriver(),
-                        scenario.getName().replaceAll(" ", "_")
+                        scenario.getName().replaceAll("[^a-zA-Z0-9]", "_")
                 );
 
                 if (screenshotPath != null) {
