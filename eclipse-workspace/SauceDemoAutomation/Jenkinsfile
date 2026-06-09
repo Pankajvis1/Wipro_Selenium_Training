@@ -1,0 +1,60 @@
+pipeline {
+    agent any
+
+    tools {
+        maven 'Maven3'
+        jdk 'jdk 17'
+    }
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                git branch: 'master',
+                    url: 'https://github.com/Pankajvis1/Wipro-Scholar-Training-.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                dir('TestNG_Selenium') {
+                    bat 'mvn clean'
+                }
+            }
+        }
+
+        stage('Compile') {
+            steps {
+                dir('TestNG_Selenium') {
+                    bat 'mvn compile'
+                }
+            }
+        }
+
+        stage('Test') {
+            steps {
+                dir('TestNG_Selenium') {
+                    bat 'mvn test'
+                }
+            }
+        }
+
+        stage('Package') {
+            steps {
+                dir('TestNG_Selenium') {
+                    bat 'mvn package'
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            echo 'Build Successful'
+        }
+
+        failure {
+            echo 'Build Failed'
+        }
+    }
+}
