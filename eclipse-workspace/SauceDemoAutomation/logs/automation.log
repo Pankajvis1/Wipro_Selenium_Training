@@ -1,0 +1,291 @@
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/bs/1lrmkqrd5vzc9w5802nqf9dw0000gn/T/testng-eclipse-94076775/testng-customsuite.xml
+
+2026-06-09 19:05:45 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+2026-06-09 19:05:45 INFO  base.BaseTest - Launching Chrome Browser
+2026-06-09 19:05:47 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 19:05:47 INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.55/mac-arm64/chromedriver-mac-arm64.zip
+2026-06-09 19:08:35 INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-mac-arm64.zip
+2026-06-09 19:08:35 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.55/chromedriver
+2026-06-09 19:08:40 INFO  base.BaseTest - SauceDemo Application Opened
+2026-06-09 19:08:40 INFO  base.BaseTest - Starting valid login test
+2026-06-09 19:08:40 INFO  pages.LoginPage - Entering username
+2026-06-09 19:08:40 INFO  pages.LoginPage - Entering password
+2026-06-09 19:08:40 INFO  pages.LoginPage - Clicking login button
+2026-06-09 19:08:40 INFO  pages.ProductsPage - Getting products page title
+2026-06-09 19:08:40 INFO  base.BaseTest - Valid login test completed
+2026-06-09 19:08:40 INFO  base.BaseTest - Closing Browser
+2026-06-09 19:08:41 INFO  base.BaseTest - Launching Chrome Browser
+2026-06-09 19:08:41 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 19:08:41 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.55/chromedriver
+2026-06-09 19:08:44 INFO  base.BaseTest - SauceDemo Application Opened
+2026-06-09 19:08:44 INFO  base.BaseTest - Starting add product to cart test
+2026-06-09 19:08:44 INFO  pages.LoginPage - Entering username
+2026-06-09 19:08:44 INFO  pages.LoginPage - Entering password
+2026-06-09 19:08:44 INFO  pages.LoginPage - Clicking login button
+2026-06-09 19:08:44 INFO  pages.ProductsPage - Adding product to cart
+2026-06-09 19:08:44 INFO  pages.ProductsPage - Opening cart page
+2026-06-09 19:08:44 INFO  pages.CartPage - Getting cart item name
+2026-06-09 19:08:44 INFO  base.BaseTest - Add product to cart test completed
+2026-06-09 19:08:44 INFO  base.BaseTest - Closing Browser
+2026-06-09 19:08:44 INFO  base.BaseTest - Launching Chrome Browser
+2026-06-09 19:08:44 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 19:08:44 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.55/chromedriver
+2026-06-09 19:08:47 INFO  base.BaseTest - SauceDemo Application Opened
+2026-06-09 19:08:47 INFO  base.BaseTest - Starting complete checkout test
+2026-06-09 19:08:47 INFO  pages.LoginPage - Entering username
+2026-06-09 19:08:48 INFO  pages.LoginPage - Entering password
+2026-06-09 19:08:48 INFO  pages.LoginPage - Clicking login button
+2026-06-09 19:08:48 INFO  pages.ProductsPage - Adding product to cart
+2026-06-09 19:08:48 INFO  pages.ProductsPage - Opening cart page
+2026-06-09 19:08:48 INFO  pages.CartPage - Clicking checkout button
+2026-06-09 19:08:48 INFO  pages.CheckoutPage - Entering checkout details
+2026-06-09 19:08:48 INFO  pages.CheckoutPage - Clicking continue button
+2026-06-09 19:08:48 INFO  pages.CheckoutPage - Clicking finish button
+2026-06-09 19:08:48 INFO  pages.CheckoutPage - Getting success message
+2026-06-09 19:08:48 INFO  base.BaseTest - Complete checkout test completed
+2026-06-09 19:08:48 INFO  base.BaseTest - Closing Browser
+2026-06-09 19:08:48 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@68ed3f30: 16 ms
+2026-06-09 19:08:48 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@56b859a6: 1 ms
+2026-06-09 19:08:48 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@47b11ec7: 3 ms
+2026-06-09 19:08:48 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@31e130bf: 2 ms
+2026-06-09 19:08:48 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2bfb583b: 3 ms
+2026-06-09 19:08:48 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@73ae0257: 0 ms
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/bs/1lrmkqrd5vzc9w5802nqf9dw0000gn/T/testng-eclipse-372495417/testng-customsuite.xml
+
+2026-06-09 19:10:59 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+2026-06-09 19:10:59 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 19:10:59 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.55/chromedriver
+2026-06-09 19:11:02 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 19:11:02 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.55/chromedriver
+2026-06-09 19:11:05 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 19:11:05 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.55/chromedriver
+2026-06-09 19:11:08 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@20011bf: 26 ms
+2026-06-09 19:11:08 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@46d63dbb: 5 ms
+2026-06-09 19:11:08 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@23f3dbf0: 6 ms
+2026-06-09 19:11:08 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2f508f3c: 3 ms
+2026-06-09 19:11:08 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@1dc76fa1: 3 ms
+2026-06-09 19:11:08 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@5eed2d86: 0 ms
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/bs/1lrmkqrd5vzc9w5802nqf9dw0000gn/T/testng-eclipse--566261251/testng-customsuite.xml
+
+2026-06-09 19:11:23 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+2026-06-09 19:11:23 INFO  base.BaseTest - Launching Chrome Browser
+2026-06-09 19:11:23 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 19:11:23 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.55/chromedriver
+2026-06-09 19:11:27 INFO  base.BaseTest - SauceDemo Application Opened
+2026-06-09 19:11:27 INFO  base.BaseTest - Starting valid login test
+2026-06-09 19:11:27 INFO  pages.LoginPage - Entering username
+2026-06-09 19:11:27 INFO  pages.LoginPage - Entering password
+2026-06-09 19:11:27 INFO  pages.LoginPage - Clicking login button
+2026-06-09 19:11:27 INFO  pages.ProductsPage - Getting products page title
+2026-06-09 19:11:28 INFO  base.BaseTest - Valid login test completed
+2026-06-09 19:11:28 INFO  base.BaseTest - Closing Browser
+2026-06-09 19:11:28 INFO  base.BaseTest - Launching Chrome Browser
+2026-06-09 19:11:28 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 19:11:28 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.55/chromedriver
+2026-06-09 19:11:31 INFO  base.BaseTest - SauceDemo Application Opened
+2026-06-09 19:11:31 INFO  base.BaseTest - Starting add product to cart test
+2026-06-09 19:11:31 INFO  pages.LoginPage - Entering username
+2026-06-09 19:11:31 INFO  pages.LoginPage - Entering password
+2026-06-09 19:11:31 INFO  pages.LoginPage - Clicking login button
+2026-06-09 19:11:31 INFO  pages.ProductsPage - Adding product to cart
+2026-06-09 19:11:31 INFO  pages.ProductsPage - Opening cart page
+2026-06-09 19:11:31 INFO  pages.CartPage - Getting cart item name
+2026-06-09 19:11:31 INFO  base.BaseTest - Add product to cart test completed
+2026-06-09 19:11:31 INFO  base.BaseTest - Closing Browser
+2026-06-09 19:11:31 INFO  base.BaseTest - Launching Chrome Browser
+2026-06-09 19:11:31 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 19:11:31 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.55/chromedriver
+2026-06-09 19:11:34 INFO  base.BaseTest - SauceDemo Application Opened
+2026-06-09 19:11:34 INFO  base.BaseTest - Starting complete checkout test
+2026-06-09 19:11:34 INFO  pages.LoginPage - Entering username
+2026-06-09 19:11:34 INFO  pages.LoginPage - Entering password
+2026-06-09 19:11:34 INFO  pages.LoginPage - Clicking login button
+2026-06-09 19:11:34 INFO  pages.ProductsPage - Adding product to cart
+2026-06-09 19:11:34 INFO  pages.ProductsPage - Opening cart page
+2026-06-09 19:11:34 INFO  pages.CartPage - Clicking checkout button
+2026-06-09 19:11:34 INFO  pages.CheckoutPage - Entering checkout details
+2026-06-09 19:11:34 INFO  pages.CheckoutPage - Clicking continue button
+2026-06-09 19:11:34 INFO  pages.CheckoutPage - Clicking finish button
+2026-06-09 19:11:34 INFO  pages.CheckoutPage - Getting success message
+2026-06-09 19:11:34 INFO  base.BaseTest - Complete checkout test completed
+2026-06-09 19:11:34 INFO  base.BaseTest - Closing Browser
+2026-06-09 19:11:34 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@1f77b5cc: 12 ms
+2026-06-09 19:11:34 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5d7ca698: 0 ms
+2026-06-09 19:11:34 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@22e5f96e: 4 ms
+2026-06-09 19:11:34 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4195105b: 3 ms
+2026-06-09 19:11:34 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2c7a8af2: 2 ms
+2026-06-09 19:11:34 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@10c07b8d: 0 ms
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /private/var/folders/bs/1lrmkqrd5vzc9w5802nqf9dw0000gn/T/testng-eclipse-908328041/testng-customsuite.xml
+
+2026-06-09 19:11:42 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+2026-06-09 19:11:42 INFO  base.BaseTest - Launching Chrome Browser
+2026-06-09 19:11:42 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 19:11:42 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.55/chromedriver
+2026-06-09 19:11:45 INFO  base.BaseTest - SauceDemo Application Opened
+2026-06-09 19:11:45 INFO  base.BaseTest - Starting valid login test
+2026-06-09 19:11:45 INFO  pages.LoginPage - Entering username
+2026-06-09 19:11:45 INFO  pages.LoginPage - Entering password
+2026-06-09 19:11:45 INFO  pages.LoginPage - Clicking login button
+2026-06-09 19:11:45 INFO  pages.ProductsPage - Getting products page title
+2026-06-09 19:11:45 INFO  base.BaseTest - Valid login test completed
+2026-06-09 19:11:45 INFO  base.BaseTest - Closing Browser
+2026-06-09 19:11:46 INFO  base.BaseTest - Launching Chrome Browser
+2026-06-09 19:11:46 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 19:11:46 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.55/chromedriver
+2026-06-09 19:11:49 INFO  base.BaseTest - SauceDemo Application Opened
+2026-06-09 19:11:49 INFO  base.BaseTest - Starting add product to cart test
+2026-06-09 19:11:49 INFO  pages.LoginPage - Entering username
+2026-06-09 19:11:49 INFO  pages.LoginPage - Entering password
+2026-06-09 19:11:49 INFO  pages.LoginPage - Clicking login button
+2026-06-09 19:11:50 INFO  pages.ProductsPage - Adding product to cart
+2026-06-09 19:11:50 INFO  pages.ProductsPage - Opening cart page
+2026-06-09 19:11:50 INFO  pages.CartPage - Getting cart item name
+2026-06-09 19:11:50 INFO  base.BaseTest - Add product to cart test completed
+2026-06-09 19:11:50 INFO  base.BaseTest - Closing Browser
+2026-06-09 19:11:50 INFO  base.BaseTest - Launching Chrome Browser
+2026-06-09 19:11:50 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.55 (resolved driver for Chrome 149)
+2026-06-09 19:11:50 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.55/chromedriver
+2026-06-09 19:11:51 INFO  base.BaseTest - SauceDemo Application Opened
+2026-06-09 19:11:51 INFO  base.BaseTest - Starting complete checkout test
+2026-06-09 19:11:51 INFO  pages.LoginPage - Entering username
+2026-06-09 19:11:53 INFO  pages.LoginPage - Entering password
+2026-06-09 19:11:53 INFO  pages.LoginPage - Clicking login button
+2026-06-09 19:11:53 INFO  pages.ProductsPage - Adding product to cart
+2026-06-09 19:11:53 INFO  pages.ProductsPage - Opening cart page
+2026-06-09 19:11:53 INFO  pages.CartPage - Clicking checkout button
+2026-06-09 19:11:53 INFO  pages.CheckoutPage - Entering checkout details
+2026-06-09 19:11:53 INFO  pages.CheckoutPage - Clicking continue button
+2026-06-09 19:11:53 INFO  pages.CheckoutPage - Clicking finish button
+2026-06-09 19:11:53 INFO  pages.CheckoutPage - Getting success message
+2026-06-09 19:11:53 INFO  base.BaseTest - Complete checkout test completed
+2026-06-09 19:11:53 INFO  base.BaseTest - Closing Browser
+2026-06-09 19:11:53 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@5d7ca698: 18 ms
+2026-06-09 19:11:53 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@75961f16: 0 ms
+2026-06-09 19:11:53 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@6a638c79: 4 ms
+2026-06-09 19:11:53 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@6f3e19b3: 2 ms
+2026-06-09 19:11:53 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@10c07b8d: 2 ms
+2026-06-09 19:11:53 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@720bf653: 0 ms
