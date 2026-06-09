@@ -5,8 +5,8 @@
     <classes>
       <class name="tests.SauceDemoTest">
         <methods>
-          <include name="completeCheckoutTest"/>
           <include name="setup"/>
+          <include name="completeCheckoutTest"/>
           <include name="tearDown"/>
           <include name="addProductToCartTest"/>
           <include name="validLoginTest"/>

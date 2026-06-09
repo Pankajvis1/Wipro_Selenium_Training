@@ -14,26 +14,18 @@ public class SauceDemoTest extends BaseTest {
     @Test(priority = 1)
     public void validLoginTest() {
 
-        log.info("Starting valid login test");
-
         LoginPage loginPage = new LoginPage(driver);
         ProductsPage productsPage = new ProductsPage(driver);
 
         loginPage.login("standard_user", "secret_sauce");
 
-        Assert.assertEquals(
-                productsPage.getPageTitle(),
-                "Products");
+        Assert.assertEquals(productsPage.getPageTitle(), "Products");
 
         ScreenshotUtil.takeScreenshot(driver, "ValidLogin");
-
-        log.info("Valid login test completed");
     }
 
     @Test(priority = 2)
     public void addProductToCartTest() {
-
-        log.info("Starting add product to cart test");
 
         LoginPage loginPage = new LoginPage(driver);
         ProductsPage productsPage = new ProductsPage(driver);
@@ -44,19 +36,13 @@ public class SauceDemoTest extends BaseTest {
         productsPage.addProductToCart();
         productsPage.goToCart();
 
-        Assert.assertEquals(
-                cartPage.getCartItemName(),
-                "Sauce Labs Backpack");
+        Assert.assertEquals(cartPage.getCartItemName(), "Sauce Labs Backpack");
 
         ScreenshotUtil.takeScreenshot(driver, "ProductAddedToCart");
-
-        log.info("Add product to cart test completed");
     }
 
     @Test(priority = 3)
     public void completeCheckoutTest() {
-
-        log.info("Starting complete checkout test");
 
         LoginPage loginPage = new LoginPage(driver);
         ProductsPage productsPage = new ProductsPage(driver);
@@ -70,19 +56,11 @@ public class SauceDemoTest extends BaseTest {
 
         cartPage.clickCheckout();
 
-        checkoutPage.enterCheckoutDetails(
-                "Pankaj",
-                "Vishwakarma",
-                "208001");
-
+        checkoutPage.enterCheckoutDetails("Pankaj", "Vishwakarma", "208001");
         checkoutPage.finishCheckout();
 
-        Assert.assertEquals(
-                checkoutPage.getSuccessMessage(),
-                "Thank you for your order!");
+        Assert.assertEquals(checkoutPage.getSuccessMessage(), "Thank you for your order!");
 
         ScreenshotUtil.takeScreenshot(driver, "CheckoutCompleted");
-
-        log.info("Complete checkout test completed");
     }
 }
