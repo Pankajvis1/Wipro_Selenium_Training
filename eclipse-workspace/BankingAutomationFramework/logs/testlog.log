@@ -32,3 +32,14 @@
 12:03:09 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.115/chromedriver
 12:03:15 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.115 (resolved driver for Chrome 149)
 12:03:15 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.115/chromedriver
+12:33:17 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/pankajvishwakarma/eclipse-workspace/BankingAutomationFramework/testng.xml
+
+12:33:17 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.115 (resolved driver for Chrome 149)
+12:33:17 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.115/chromedriver
+12:33:28 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.115 (resolved driver for Chrome 149)
+12:33:28 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.115/chromedriver
+12:33:39 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.115 (resolved driver for Chrome 149)
+12:33:39 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.115/chromedriver
+12:33:46 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.115 (resolved driver for Chrome 149)
+12:33:46 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.115/chromedriver
