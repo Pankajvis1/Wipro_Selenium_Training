@@ -43,3 +43,18 @@
 12:33:39 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.115/chromedriver
 12:33:46 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.115 (resolved driver for Chrome 149)
 12:33:46 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.115/chromedriver
+13:04:58 INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/pankajvishwakarma/eclipse-workspace/BankingAutomationFramework/crossBrowserTest.xml
+
+13:04:59 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.115 (resolved driver for Chrome 149)
+13:04:59 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.115/chromedriver
+13:04:59 INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+13:05:00 INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://github.com/mozilla/geckodriver/releases/download/v0.37.0/geckodriver-v0.37.0-macos-aarch64.tar.gz
+13:05:04 INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file geckodriver-v0.37.0-macos-aarch64.tar.gz
+13:05:04 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as /Users/pankajvishwakarma/.cache/selenium/geckodriver/mac-arm64/0.37.0/geckodriver
+13:05:09 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.115 (resolved driver for Chrome 149)
+13:05:09 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.115/chromedriver
+13:05:20 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.115 (resolved driver for Chrome 149)
+13:05:20 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.115/chromedriver
+13:05:26 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.115 (resolved driver for Chrome 149)
+13:05:26 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/pankajvishwakarma/.cache/selenium/chromedriver/mac-arm64/149.0.7827.115/chromedriver
