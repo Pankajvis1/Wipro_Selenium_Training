@@ -1,0 +1,4 @@
+firstName,lastName,address,city,state,zip,phone,ssn,password,amount
+Pankaj,Test,Test Address,Varanasi,UP,221001,9876543210,12345,Test@123,100
+Rahul,Sharma,MG Road,Bangalore,Karnataka,560001,9876543211,12346,Test@123,200
+Amit,Kumar,Sector 62,Noida,UP,201301,9876543212,12347,Test@123,300
